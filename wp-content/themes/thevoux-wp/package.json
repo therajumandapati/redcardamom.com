@@ -2,6 +2,9 @@
   "name": "thevoux-wp",
   "version": "1.0.0",
   "dependencies": {},
+  "scripts": {
+    "build": "./node_modules/.bin/gulp build"
+  },
   "devDependencies": {
     "gulp": "^3.*",
     "gulp-phplint": "^0.*",
