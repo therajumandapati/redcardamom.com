@@ -17,6 +17,15 @@
 		 */
 		wp_head();
 	?>
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-84341334-1"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+
+		gtag('config', 'UA-84341334-1');
+	</script>
+
 </head>
 <body <?php body_class(); ?> data-themeurl="<?php echo esc_url(get_template_directory_uri()); ?>">
 
