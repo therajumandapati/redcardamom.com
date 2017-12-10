@@ -1,0 +1,143 @@
+.no-result h4 {
+	text-transform: uppercase;
+	margin-bottom: 40px;
+}
+.wp-caption,
+.wp-caption-text,
+.sticky,
+.gallery-caption,
+.alignright,
+.alignleft,
+.aligncenter,
+.bypostauthor {
+	color: inherit;
+}
+
+.alignright {
+    float: none;
+    margin: 6px 0;
+    
+    @include min-break($break-small) {
+    	float: right;
+    	margin: 6px 0 6px 50px;
+    }
+}
+.alignleft {
+    float: none;
+    margin: 6px 0;
+    
+    @include min-break($break-small) {
+    	float: left;
+    	margin: 6px 50px 6px 0;
+    }
+}
+
+.alignright img,
+.alignleft img,
+.aligncenter img {
+	width: 100%;
+	max-width: 100%;
+}
+img.center {
+	margin: 0 auto;
+	display: block;
+}
+img.full {
+	width: 100%;
+}
+.aligncenter {
+	display: block;
+    margin: 0 auto;
+}
+.wp-caption {
+	position: relative;
+	max-width: 100%;
+	.wp-caption-text {
+		display: block;
+		margin: 0;
+		font-weight: 400;
+		font-size: 13px;
+		line-height: 18px;
+		color: #767676;
+		padding: 13px 0 26px;
+	}
+}
+
+.gallery {
+	display: block;
+	margin: 0 auto;
+	float: left;
+	clear: both;
+	&.gallery-columns-2 .gallery-item {
+		width: 50%;
+	}
+	&.gallery-columns-3 .gallery-item {
+		width: 33%;
+	}
+	&.gallery-columns-4 .gallery-item {
+		width: 25%;
+	}
+	&.gallery-columns-5 .gallery-item {
+		width: 20%;
+	}
+	.gallery-item {
+		display: inline-block;
+		width: 100%;
+		padding: 0 1px 1px 0;
+		margin: 0;
+		@include single-transition(opacity, 0.2s, $transition);
+		
+		&:hover {
+			@include opacity(0.8);
+		}
+		img {
+			width: 100%;
+			max-width: 100%;	
+		}
+		a {
+			line-height: 0;
+			display: block;
+			width: 100%;
+		}
+		.gallery-icon {
+			margin: 0;
+		}
+		.gallery-caption {
+			display: none;
+		}
+	}
+}
+.more-link {
+	display: inline-block;
+	font-weight: 300;
+	color: $color1;
+	text-decoration: underline;
+}
+[class^="tag-link"] {
+	display: inline-block;
+	background: #f4f4f4;
+	color: #8e8e8e;
+	font-size: 10px;
+	padding: 9px 12px;
+	margin: 0 0px 4px 0;
+	line-height: 1;
+	text-transform: uppercase;
+	font-weight: 400;
+	border: 0;
+	&:hover {
+		background: $color3;
+		color: #fff;	
+	}
+}
+.searchform {
+	margin: 0;
+	fieldset {
+		position: relative;
+		border: 0;
+		@extend .reset;
+
+		input {
+			margin-bottom: 0;
+		}
+	}
+}

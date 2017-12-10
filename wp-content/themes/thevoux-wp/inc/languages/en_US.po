@@ -1,0 +1,1754 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: 'thevoux'\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-10-03 22:09+0200\n"
+"PO-Revision-Date: 2016-10-03 22:09+0200\n"
+"Last-Translator: Ant Ekşiler <anteksiler@gmail.com>\n"
+"Language-Team: Fuel Themes <support@fuelthemes.net>\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: _e;__\n"
+"X-Poedit-Basepath: ../../\n"
+"X-Generator: Poedit 1.7.1\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: admin\n"
+"X-Poedit-SearchPathExcluded-1: assets\n"
+"X-Poedit-SearchPathExcluded-2: node_modules\n"
+
+#: 404.php:5
+msgid "USE THE <span>SUN'S</span> <br>POWER"
+msgstr ""
+
+#: 404.php:6
+msgid ""
+"We are sorry. But the page you are looking for cannot be found. You might try searching "
+"our site."
+msgstr ""
+
+#: 404.php:10
+msgid "Back To Home"
+msgstr ""
+
+#: archive.php:11 author.php:19 category.php:11 index.php:34 search.php:11
+msgid "Older Posts"
+msgstr ""
+
+#: archive.php:14 author.php:23 category.php:14 index.php:38 search.php:14
+msgid "Newer Posts"
+msgstr ""
+
+#: attachment.php:10 inc/loop/blog-list.php:15 inc/loop/single-style1.php:25
+#: inc/loop/single-style2.php:35 inc/loop/single-style3.php:33
+#: inc/loop/single-style4.php:25 inc/loop/style2.php:23
+#: vc_templates/thb_postcarousel.php:150 vc_templates/thb_postslider.php:108
+msgid "by"
+msgstr ""
+
+#: comments.php:17
+msgid "No Comments Yet"
+msgstr ""
+
+#: comments.php:17
+msgid "1 Comment"
+msgstr ""
+
+#: comments.php:17
+msgid "% Comments"
+msgstr ""
+
+#: comments.php:43
+msgid "Comments are closed"
+msgstr ""
+
+#: comments.php:56 woocommerce/single-product-reviews.php:62
+msgid "Name"
+msgstr ""
+
+#: comments.php:58 woocommerce/single-product-reviews.php:64
+msgid "Email"
+msgstr ""
+
+#: comments.php:60
+msgid "Website"
+msgstr ""
+
+#: comments.php:62
+msgid "Your Comment"
+msgstr ""
+
+#: comments.php:64
+#, php-format
+msgid "You must be <a href=\"%s\">logged in</a> to post a comment."
+msgstr ""
+
+#: comments.php:66
+#, php-format
+msgid ""
+"Logged in as <a href=\"%1$s\">%2$s</a>. <a href=\"%3$s\" title=\"Log out of this account"
+"\">Log out?</a>"
+msgstr ""
+
+#: comments.php:68
+msgid "Your email address will not be published."
+msgstr ""
+
+#: comments.php:69
+#, php-format
+msgid ""
+"You may use these <abbr title=\"HyperText Markup Language\">HTML</abbr> tags and "
+"attributes: %s"
+msgstr ""
+
+#: comments.php:72
+msgid "Leave a Reply"
+msgstr ""
+
+#: comments.php:73
+#, php-format
+msgid "Leave a Reply to %s"
+msgstr ""
+
+#: comments.php:74
+msgid "Cancel reply"
+msgstr ""
+
+#: comments.php:75
+msgid "Submit Comment"
+msgstr ""
+
+#: footer.php:119
+msgid "Share this selection on Twitter"
+msgstr ""
+
+#: footer.php:122
+msgid "Share this selection on Facebook"
+msgstr ""
+
+#: footer.php:125
+msgid "Share this selection by Email"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:334 inc/plugins.php:44
+msgid "Install Required Plugins"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:335 inc/plugins.php:45
+msgid "Install Plugins"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:337 inc/plugins.php:46
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:339
+#, php-format
+msgid "Updating Plugin: %s"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:340 inc/plugins.php:47
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:392 inc/plugins.php:58
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:393
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:394 inc/class-tgm-plugin-activation.php:3244
+#: inc/plugins.php:59
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:395
+msgid "The following plugin was activated successfully:"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:397
+#, php-format
+msgid "No action taken. Plugin %1$s was already active."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:399
+#, php-format
+msgid ""
+"Plugin not activated. A higher version of %s is needed for this theme. Please update the "
+"plugin."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:401
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:402
+msgid "Dismiss this notice"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:403
+msgid ""
+"There are one or more required or recommended plugins to install, update or activate."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:404
+msgid "Please contact the administrator of this site for help."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2067
+#, php-format
+msgid "TGMPA v%s"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2358
+msgid "Required"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2361
+msgid "Recommended"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2377
+msgid "WordPress Repository"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2380
+msgid "External Source"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2383
+msgid "Pre-Packaged"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2400
+msgid "Not Installed"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2404
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2406
+msgid "Active"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2412
+msgid "Required Update not Available"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2415
+msgid "Requires Update"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2418
+msgid "Update recommended"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2575
+msgid "Installed version:"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2583
+msgid "Minimum required version:"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2595
+msgid "Available version:"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2632
+msgid "Plugin"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2633
+msgid "Source"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2634
+msgid "Type"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2638
+msgid "Version"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2639
+msgid "Status"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2688
+#, php-format
+msgid "Install %2$s"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2693
+#, php-format
+msgid "Update %2$s"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2699
+#, php-format
+msgid "Activate %2$s"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2802
+msgid "Install"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2808
+msgid "Update"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2811
+msgid "Activate"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2842
+msgid "No plugins were selected to be installed. No action taken."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2844
+msgid "No plugins were selected to be updated. No action taken."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2885
+msgid "No plugins are available to be installed at this time."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2887
+msgid "No plugins are available to be updated at this time."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:3243
+msgid "Plugin activation failed."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:3583
+#, php-format
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:3586
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:3588
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:3592
+msgid ""
+"The installation and activation process is starting. This process may take a while on "
+"some hosts, so please be patient."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:3594
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:3595
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:3597
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:3600
+msgid ""
+"The installation process is starting. This process may take a while on some hosts, so "
+"please be patient."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:3603
+msgid "All installations have been completed."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:3605
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: inc/header/archive-title.php:15 inc/header/archive-title.php:23
+msgid "Search Results for: "
+msgstr ""
+
+#: inc/loop/notfound.php:4
+msgid "Sorry, but nothing matched your search criteria."
+msgstr ""
+
+#: inc/loop/notfound.php:6
+msgid "Please add posts from your WordPress admin page."
+msgstr ""
+
+#: inc/loop/notfound.php:8
+msgid "Back to Home Page"
+msgstr ""
+
+#: inc/loop/single-style1.php:48 inc/loop/single-style2.php:59
+#: inc/loop/single-style3.php:63 inc/loop/single-style4.php:48
+msgid "Pages:"
+msgstr ""
+
+#: inc/loop/single-style1.php:56 inc/loop/single-style2.php:67
+#: inc/loop/single-style3.php:71 inc/loop/single-style4.php:56
+msgid "Tags:"
+msgstr ""
+
+#: inc/misc.php:415
+msgid "The Good"
+msgstr ""
+
+#: inc/misc.php:423
+msgid "The Bad"
+msgstr ""
+
+#: inc/misc.php:807
+#, php-format
+msgid "%s ago"
+msgstr ""
+
+#: inc/misc.php:889
+#, php-format
+msgid "Thank you for choosing %1$sFuel Themes%2$s"
+msgstr ""
+
+#: inc/one-click-demo-import/inc/class-ocdi-helpers.php:164
+#, php-format
+msgid "URL for %s%s%s file is not defined!"
+msgstr ""
+
+#: inc/one-click-demo-import/inc/class-ocdi-helpers.php:186
+#, php-format
+msgid "An error occurred while fetching %s%s%s file from the server!%sReason: %s - %s."
+msgstr ""
+
+#: inc/one-click-demo-import/inc/class-ocdi-helpers.php:226
+#: inc/one-click-demo-import/inc/class-ocdi-helpers.php:270
+#, php-format
+msgid "An error occurred while writing file to your server! Tried to write a file to: %s%s."
+msgstr ""
+
+#: inc/one-click-demo-import/inc/class-ocdi-helpers.php:305
+#, php-format
+msgid ""
+"An error occurred while reading a file from your server! Tried reading file from path: %s"
+"%s."
+msgstr ""
+
+#: inc/one-click-demo-import/inc/class-ocdi-helpers.php:329
+#, php-format
+msgid ""
+"This WordPress page does not have %sdirect%s write file access. This plugin needs it in "
+"order to save the demo import xml file to the upload directory of your site. You can "
+"change this setting with these instructions: %s."
+msgstr ""
+
+#: inc/one-click-demo-import/inc/class-ocdi-helpers.php:353
+msgid ""
+"An error occurred while retrieving reading/writing permissions to your server (could not "
+"retrieve WP filesystem credentials)!"
+msgstr ""
+
+#: inc/one-click-demo-import/inc/class-ocdi-helpers.php:361
+msgid "Your WordPress login credentials don't allow to use WP_Filesystem!"
+msgstr ""
+
+#: inc/one-click-demo-import/inc/class-ocdi-helpers.php:432
+#, php-format
+msgid "%sYour user role isn't high enough. You don't have permission to import demo data.%s"
+msgstr ""
+
+#: inc/one-click-demo-import/inc/class-ocdi-helpers.php:468
+msgid ""
+"Please upload XML file for content import. If you want to import widgets only, please use "
+"Widget Importer & Exporter plugin."
+msgstr ""
+
+#: inc/one-click-demo-import/inc/class-ocdi-helpers.php:488
+#, php-format
+msgid "Widget file was not uploaded. Error: %s"
+msgstr ""
+
+#: inc/one-click-demo-import/inc/class-ocdi-helpers.php:507
+#, php-format
+msgid "Customizer file was not uploaded. Error: %s"
+msgstr ""
+
+#: inc/one-click-demo-import/inc/class-ocdi-helpers.php:517
+msgid "The import files were successfully uploaded!"
+msgstr ""
+
+#: inc/one-click-demo-import/inc/class-ocdi-helpers.php:535
+#, php-format
+msgid "MAX EXECUTION TIME = %s"
+msgstr ""
+
+#: inc/one-click-demo-import/inc/class-ocdi-helpers.php:539
+#, php-format
+msgid ""
+"Files info:%1$sSite URL = %2$s%1$sData file = %3$s%1$sWidget file = %4$s%1$sCustomizer "
+"file = %5$s%1$sTheme Options file = %6$s"
+msgstr ""
+
+#: inc/one-click-demo-import/inc/class-ocdi-widget-importer.php:44
+msgid "Widget import file could not be found."
+msgstr ""
+
+#: inc/one-click-demo-import/inc/class-ocdi-widget-importer.php:76
+msgid "Widget import data could not be read. Please try a different file."
+msgstr ""
+
+#: inc/one-click-demo-import/inc/class-ocdi-widget-importer.php:116
+msgid "Sidebar does not exist in theme (moving widget to Inactive)"
+msgstr ""
+
+#: inc/one-click-demo-import/inc/class-ocdi-widget-importer.php:138
+msgid "Site does not support widget"
+msgstr ""
+
+#: inc/one-click-demo-import/inc/class-ocdi-widget-importer.php:173
+msgid "Widget already exists"
+msgstr ""
+
+#: inc/one-click-demo-import/inc/class-ocdi-widget-importer.php:232
+msgid "Imported"
+msgstr ""
+
+#: inc/one-click-demo-import/inc/class-ocdi-widget-importer.php:236
+msgid "Imported to Inactive"
+msgstr ""
+
+#: inc/one-click-demo-import/inc/class-ocdi-widget-importer.php:242
+msgid "No Title"
+msgstr ""
+
+#: inc/one-click-demo-import/one-click-demo-import.php:335
+#, php-format
+msgid "The import files for: %s were successfully downloaded!"
+msgstr ""
+
+#: inc/one-click-demo-import/one-click-demo-import.php:392
+#, php-format
+msgid ""
+"%1$s%3$sThat's it, all done!%4$s%2$sThe demo import has finished. Please check your page "
+"and make sure that everything has imported correctly. If it did, you can deactivate the "
+"%3$sOne Click Demo Import%4$s plugin, because it has done its job.%5$s"
+msgstr ""
+
+#: inc/one-click-demo-import/one-click-demo-import.php:403
+#, php-format
+msgid ""
+"%1$sThe demo import has finished, but there were some import errors.%2$sMore details "
+"about the errors can be found in this %3$s%5$slog file%6$s%4$s%7$s"
+msgstr ""
+
+#: inc/one-click-demo-import/one-click-demo-import.php:590
+msgid "Completed AJAX call number: "
+msgstr ""
+
+#: inc/one-click-demo-import/vendor/humanmade/WordPress-Importer/class-wxr-importer.php:130
+msgid "Could not open the file for parsing"
+msgstr ""
+
+#: inc/one-click-demo-import/vendor/humanmade/WordPress-Importer/class-wxr-importer.php:166
+#: inc/one-click-demo-import/vendor/humanmade/WordPress-Importer/class-wxr-importer.php:282
+#: inc/one-click-demo-import/vendor/humanmade/WordPress-Importer/class-wxr-importer.php:355
+#, php-format
+msgid ""
+"This WXR file (version %s) is newer than the importer (version %s) and may not be "
+"supported. Please consider updating."
+msgstr ""
+
+#: inc/one-click-demo-import/vendor/humanmade/WordPress-Importer/class-wxr-importer.php:504
+msgid "The file does not exist, please try again."
+msgstr ""
+
+#: inc/one-click-demo-import/vendor/humanmade/WordPress-Importer/class-wxr-importer.php:564
+msgid "Invalid author mapping"
+msgstr ""
+
+#: inc/one-click-demo-import/vendor/humanmade/WordPress-Importer/class-wxr-importer.php:665
+msgid "Cannot import auto-draft posts"
+msgstr ""
+
+#: inc/one-click-demo-import/vendor/humanmade/WordPress-Importer/class-wxr-importer.php:753
+#, php-format
+msgid "Failed to import \"%s\": Invalid post type %s"
+msgstr ""
+
+#: inc/one-click-demo-import/vendor/humanmade/WordPress-Importer/class-wxr-importer.php:763
+#, php-format
+msgid "%s \"%s\" already exists."
+msgstr ""
+
+#: inc/one-click-demo-import/vendor/humanmade/WordPress-Importer/class-wxr-importer.php:842
+#, php-format
+msgid "Skipping attachment \"%s\", fetching attachments disabled"
+msgstr ""
+
+#: inc/one-click-demo-import/vendor/humanmade/WordPress-Importer/class-wxr-importer.php:856
+#, php-format
+msgid "Failed to import \"%s\" (%s)"
+msgstr ""
+
+#: inc/one-click-demo-import/vendor/humanmade/WordPress-Importer/class-wxr-importer.php:888
+#: inc/one-click-demo-import/vendor/humanmade/WordPress-Importer/class-wxr-importer.php:1701
+#, php-format
+msgid "Imported \"%s\" (%s)"
+msgstr ""
+
+#: inc/one-click-demo-import/vendor/humanmade/WordPress-Importer/class-wxr-importer.php:893
+#, php-format
+msgid "Post %d remapped to %d"
+msgstr ""
+
+#: inc/one-click-demo-import/vendor/humanmade/WordPress-Importer/class-wxr-importer.php:1038
+msgid "Invalid file type"
+msgstr ""
+
+#: inc/one-click-demo-import/vendor/humanmade/WordPress-Importer/class-wxr-importer.php:1516
+#, php-format
+msgid "Failed to import user \"%s\""
+msgstr ""
+
+#: inc/one-click-demo-import/vendor/humanmade/WordPress-Importer/class-wxr-importer.php:1537
+#, php-format
+msgid "Imported user \"%s\""
+msgstr ""
+
+#: inc/one-click-demo-import/vendor/humanmade/WordPress-Importer/class-wxr-importer.php:1541
+#, php-format
+msgid "User %d remapped to %d"
+msgstr ""
+
+#: inc/one-click-demo-import/vendor/humanmade/WordPress-Importer/class-wxr-importer.php:1677
+#, php-format
+msgid "Failed to import %s %s"
+msgstr ""
+
+#: inc/one-click-demo-import/vendor/humanmade/WordPress-Importer/class-wxr-importer.php:1706
+#, php-format
+msgid "Term %d remapped to %d"
+msgstr ""
+
+#: inc/one-click-demo-import/vendor/humanmade/WordPress-Importer/class-wxr-importer.php:1758
+#, php-format
+msgid "Remote server returned %1$d %2$s for %3$s"
+msgstr ""
+
+#: inc/one-click-demo-import/vendor/humanmade/WordPress-Importer/class-wxr-importer.php:1771
+msgid "Remote file is incorrect size"
+msgstr ""
+
+#: inc/one-click-demo-import/vendor/humanmade/WordPress-Importer/class-wxr-importer.php:1776
+msgid "Zero size file downloaded"
+msgstr ""
+
+#: inc/one-click-demo-import/vendor/humanmade/WordPress-Importer/class-wxr-importer.php:1782
+#, php-format
+msgid "Remote file is too large, limit is %s"
+msgstr ""
+
+#: inc/one-click-demo-import/vendor/humanmade/WordPress-Importer/class-wxr-importer.php:1803
+#, php-format
+msgid "Running post-processing for post %d"
+msgstr ""
+
+#: inc/one-click-demo-import/vendor/humanmade/WordPress-Importer/class-wxr-importer.php:1817
+#, php-format
+msgid "Could not find the post parent for \"%s\" (post #%d)"
+msgstr ""
+
+#: inc/one-click-demo-import/vendor/humanmade/WordPress-Importer/class-wxr-importer.php:1822
+#, php-format
+msgid "Post %d was imported with parent %d, but could not be found"
+msgstr ""
+
+#: inc/one-click-demo-import/vendor/humanmade/WordPress-Importer/class-wxr-importer.php:1837
+#, php-format
+msgid "Could not find the author for \"%s\" (post #%d)"
+msgstr ""
+
+#: inc/one-click-demo-import/vendor/humanmade/WordPress-Importer/class-wxr-importer.php:1842
+#, php-format
+msgid "Post %d was imported with author \"%s\", but could not be found"
+msgstr ""
+
+#: inc/one-click-demo-import/vendor/humanmade/WordPress-Importer/class-wxr-importer.php:1868
+#, php-format
+msgid "Post %d was marked for post-processing, but none was required."
+msgstr ""
+
+#: inc/one-click-demo-import/vendor/humanmade/WordPress-Importer/class-wxr-importer.php:1879
+#, php-format
+msgid "Could not update \"%s\" (post #%d) with mapped data"
+msgstr ""
+
+#: inc/one-click-demo-import/vendor/humanmade/WordPress-Importer/class-wxr-importer.php:1924
+#, php-format
+msgid "Could not find the menu object for \"%s\" (post #%d)"
+msgstr ""
+
+#: inc/one-click-demo-import/vendor/humanmade/WordPress-Importer/class-wxr-importer.php:1929
+#, php-format
+msgid "Post %d was imported with object \"%d\" of type \"%s\", but could not be found"
+msgstr ""
+
+#: inc/one-click-demo-import/vendor/humanmade/WordPress-Importer/class-wxr-importer.php:1952
+#, php-format
+msgid "Could not find the comment parent for comment #%d"
+msgstr ""
+
+#: inc/one-click-demo-import/vendor/humanmade/WordPress-Importer/class-wxr-importer.php:1956
+#, php-format
+msgid "Comment %d was imported with parent %d, but could not be found"
+msgstr ""
+
+#: inc/one-click-demo-import/vendor/humanmade/WordPress-Importer/class-wxr-importer.php:1971
+#, php-format
+msgid "Could not find the author for comment #%d"
+msgstr ""
+
+#: inc/one-click-demo-import/vendor/humanmade/WordPress-Importer/class-wxr-importer.php:1975
+#, php-format
+msgid "Comment %d was imported with author %d, but could not be found"
+msgstr ""
+
+#: inc/one-click-demo-import/vendor/humanmade/WordPress-Importer/class-wxr-importer.php:1992
+#, php-format
+msgid "Could not update comment #%d with mapped data"
+msgstr ""
+
+#: inc/ot-radioimages.php:9
+msgid "Four Columns"
+msgstr ""
+
+#: inc/ot-radioimages.php:14
+msgid "Three Columns"
+msgstr ""
+
+#: inc/ot-radioimages.php:19
+msgid "Two Columns"
+msgstr ""
+
+#: inc/ot-radioimages.php:24
+msgid "Double Left Columns"
+msgstr ""
+
+#: inc/ot-radioimages.php:29
+msgid "Double Right Columns"
+msgstr ""
+
+#: inc/ot-radioimages.php:34
+msgid "Five Columns"
+msgstr ""
+
+#: inc/ot-radioimages.php:67
+msgid "<a href=\"http://fuelthemes.net\">Fuel Themes</a>"
+msgstr ""
+
+#: inc/ot-radioimages.php:73
+msgid "Send to Theme Options"
+msgstr ""
+
+#: inc/ot-themeoptions.php:1571
+msgid "Add Media"
+msgstr ""
+
+#: inc/ot-themeoptions.php:1587
+msgid "Remove Media"
+msgstr ""
+
+#: inc/ot-themeoptions.php:1641
+msgid "Choose One"
+msgstr ""
+
+#: inc/ot-themeoptions.php:1646
+msgid "No Menus Found"
+msgstr ""
+
+#: inc/plugins.php:60
+#, php-format
+msgid "All plugins installed and activated successfully. %s"
+msgstr ""
+
+#: inc/postformats/gallery.php:15
+msgid "View Gallery"
+msgstr ""
+
+#: inc/postformats/gallery.php:16
+msgid "Photos"
+msgstr ""
+
+#: inc/postformats/gallery.php:18
+msgid "Please Add Photos <br> to your Gallery"
+msgstr ""
+
+#: inc/postformats/gallery.php:22 inc/postformats/image.php:9
+msgid "Please select a featured image for your post"
+msgstr ""
+
+#: inc/postformats/post-gallery.php:26
+msgid "Close (Esc)"
+msgstr ""
+
+#: inc/postformats/post-gallery.php:26 inc/script-calls.php:41
+msgid "Close"
+msgstr ""
+
+#: inc/postformats/post-gallery.php:41
+msgid "of"
+msgstr ""
+
+#: inc/postformats/post-gallery.php:49
+msgid "Source:"
+msgstr ""
+
+#: inc/postformats/post-just-shares.php:4 inc/postformats/post-links.php:8
+msgid "Shares"
+msgstr ""
+
+#: inc/postformats/post-related.php:13
+msgid "Related News"
+msgstr ""
+
+#: inc/posts-social-shares-count/posts-share-count.php:42
+#: inc/posts-social-shares-count/posts-share-count.php:48
+msgid "Cheatin&#8217; huh?"
+msgstr ""
+
+#: inc/posts-social-shares-count/posts-share-count.php:94
+msgid "Total Shares"
+msgstr ""
+
+#: inc/subscribe_save.php:30
+msgid "<strong>Oh snap!</strong> That email address is already subscribed!"
+msgstr ""
+
+#: inc/subscribe_save.php:55
+msgid "<strong>Well done!</strong> Your address has been added"
+msgstr ""
+
+#: inc/subscribe_save.php:63
+msgid "<strong>Oh snap!</strong> Please enter a valid email address"
+msgstr ""
+
+#: inc/tinymce/shortcode_generator/shortcode-generator.php:24
+msgid "Choose a shortcode"
+msgstr ""
+
+#: inc/tinymce/shortcode_generator/shortcode-generator.php:65
+msgid "Add Shortcode"
+msgstr ""
+
+#: inc/tinymce/shortcode_generator/shortcodes-definitions.php:9
+msgid "Elements"
+msgstr ""
+
+#: inc/tinymce/shortcode_generator/shortcodes-definitions.php:13
+msgid "Small Title"
+msgstr ""
+
+#: inc/tinymce/shortcode_generator/shortcodes-definitions.php:23
+msgid "Large Title"
+msgstr ""
+
+#: inc/tinymce/shortcode_generator/shortcodes-definitions.php:33
+#: inc/visualcomposer-extend.php:287
+msgid "Button"
+msgstr ""
+
+#: inc/tinymce/shortcode_generator/shortcodes-definitions.php:37
+msgid "Size"
+msgstr ""
+
+#: inc/tinymce/shortcode_generator/shortcodes-definitions.php:47
+msgid "Animation"
+msgstr ""
+
+#: inc/tinymce/shortcode_generator/shortcodes-definitions.php:60
+#: inc/tinymce/shortcode_generator/shortcodes-definitions.php:118
+#: inc/visualcomposer-extend.php:532
+msgid "Icon"
+msgstr ""
+
+#: inc/tinymce/shortcode_generator/shortcodes-definitions.php:65
+msgid "Buton Text"
+msgstr ""
+
+#: inc/tinymce/shortcode_generator/shortcodes-definitions.php:69
+msgid "Buton Link"
+msgstr ""
+
+#: inc/tinymce/shortcode_generator/shortcodes-definitions.php:73
+msgid "Open in New Window?"
+msgstr ""
+
+#: inc/tinymce/shortcode_generator/shortcodes-definitions.php:80
+msgid "Quotes"
+msgstr ""
+
+#: inc/tinymce/shortcode_generator/shortcodes-definitions.php:84
+msgid "Alignment"
+msgstr ""
+
+#: inc/tinymce/shortcode_generator/shortcodes-definitions.php:93
+msgid "Content"
+msgstr ""
+
+#: inc/tinymce/shortcode_generator/shortcodes-definitions.php:104
+msgid "Dropcap"
+msgstr ""
+
+#: inc/tinymce/shortcode_generator/shortcodes-definitions.php:114
+msgid "Single Icon"
+msgstr ""
+
+#: inc/tinymce/shortcode_generator/shortcodes-definitions.php:123
+msgid "Icon Size"
+msgstr ""
+
+#: inc/tinymce/shortcode_generator/shortcodes-definitions.php:133
+msgid "Boxed?"
+msgstr ""
+
+#: inc/tinymce/shortcode_generator/shortcodes-definitions.php:138
+msgid "Icon Link"
+msgstr ""
+
+#: inc/visualcomposer-extend.php:165
+msgid "Author List"
+msgstr ""
+
+#: inc/visualcomposer-extend.php:196
+msgid "Banner"
+msgstr ""
+
+#: inc/visualcomposer-extend.php:364
+msgid "Contact Map"
+msgstr ""
+
+#: inc/visualcomposer-extend.php:394
+msgid "Content Box"
+msgstr ""
+
+#: inc/visualcomposer-extend.php:469
+msgid "Dividers"
+msgstr ""
+
+#: inc/visualcomposer-extend.php:505
+msgid "Gap"
+msgstr ""
+
+#: inc/visualcomposer-extend.php:524
+msgid "Icon List"
+msgstr ""
+
+#: inc/visualcomposer-extend.php:539
+msgid "Select icon from library."
+msgstr ""
+
+#: inc/visualcomposer-extend.php:697
+msgid "Instagram"
+msgstr ""
+
+#: inc/visualcomposer-extend.php:764
+msgid "Notification"
+msgstr ""
+
+#: inc/visualcomposer-extend.php:798
+msgid "Posts Grid"
+msgstr ""
+
+#: inc/visualcomposer-extend.php:982
+msgid "Posts Carousel"
+msgstr ""
+
+#: inc/visualcomposer-extend.php:1115
+msgid "Posts Category"
+msgstr ""
+
+#: inc/visualcomposer-extend.php:1167
+msgid "Posts Masonry"
+msgstr ""
+
+#: inc/visualcomposer-extend.php:1265
+msgid "Posts Slider"
+msgstr ""
+
+#: inc/visualcomposer-extend.php:1397
+msgid "Subscription Form"
+msgstr ""
+
+#: inc/widgets/category-slider.php:7
+msgid "Display category posts in a slider"
+msgstr ""
+
+#: inc/widgets/category-slider.php:12
+msgid "Fuel Themes - Category Slider"
+msgstr ""
+
+#: inc/widgets/featured-video.php:7
+msgid "Display an embeded video on your sidebar"
+msgstr ""
+
+#: inc/widgets/featured-video.php:12
+msgid "Fuel Themes - Featured Video"
+msgstr ""
+
+#: inc/widgets/flickr.php:7
+msgid "Display Your Flickr Images"
+msgstr ""
+
+#: inc/widgets/flickr.php:12
+msgid "Fuel Themes - Flickr"
+msgstr ""
+
+#: inc/widgets/latest-posts-images.php:7
+msgid "Display latest posts with images"
+msgstr ""
+
+#: inc/widgets/latest-posts-images.php:12
+msgid "Fuel Themes - Latest Posts with Images"
+msgstr ""
+
+#: inc/widgets/latest-posts-list.php:7
+msgid "Display latest posts with excerpts"
+msgstr ""
+
+#: inc/widgets/latest-posts-list.php:12
+msgid "Fuel Themes - Latest Posts with Excerpts"
+msgstr ""
+
+#: inc/widgets/pinterest.php:138
+msgid "Adds a Pinterest Pinboard widget to your sidebar"
+msgstr ""
+
+#: inc/widgets/pinterest.php:143
+msgid "Fuel Themes - Pinterest"
+msgstr ""
+
+#: inc/widgets/pinterest.php:160
+msgid "Title:"
+msgstr ""
+
+#: inc/widgets/pinterest.php:164
+msgid "Username:"
+msgstr ""
+
+#: inc/widgets/pinterest.php:168
+msgid "Number of pins:"
+msgstr ""
+
+#: inc/widgets/pinterest.php:173
+msgid "Open links in a new window?"
+msgstr ""
+
+#: inc/widgets/shared-posts-images.php:7
+msgid "Display most shared posts with images"
+msgstr ""
+
+#: inc/widgets/shared-posts-images.php:12
+msgid "Fuel Themes - Most Shared Posts with Images"
+msgstr ""
+
+#: inc/widgets/social-counters.php:8
+msgid "Display a Social Counter"
+msgstr ""
+
+#: inc/widgets/social-counters.php:13
+msgid "Fuel Themes - Social Counter"
+msgstr ""
+
+#: inc/widgets/social-counters.php:39
+msgid "Likes"
+msgstr ""
+
+#: inc/widgets/social-counters.php:39 inc/widgets/social-counters.php:48
+msgid "LIKE"
+msgstr ""
+
+#: inc/widgets/social-counters.php:42 inc/widgets/social-counters.php:45
+msgid "Followers"
+msgstr ""
+
+#: inc/widgets/social-counters.php:42 inc/widgets/social-counters.php:45
+msgid "FOLLOW"
+msgstr ""
+
+#: inc/widgets/social-counters.php:48
+msgid "Fans"
+msgstr ""
+
+#: inc/widgets/social-counters.php:78
+msgid "Display Twitter Counter?"
+msgstr ""
+
+#: inc/widgets/social-counters.php:79
+msgid ""
+"Please make sure you fill out the settings inside Theme Options -> Twitter Oauth for "
+"Twitter Counts"
+msgstr ""
+
+#: inc/widgets/social-counters.php:83
+msgid "Display Facebook Counter?"
+msgstr ""
+
+#: inc/widgets/social-counters.php:84
+msgid ""
+"Please make sure you fill out the settings inside Theme Options -> Facebook Oauth for "
+"Facebook Counts"
+msgstr ""
+
+#: inc/widgets/social-counters.php:88
+msgid "Display Instagram Counter?"
+msgstr ""
+
+#: inc/widgets/social-counters.php:89
+msgid ""
+"Please make sure you fill out the settings inside Theme Options -> Instagram Oauth for "
+"Instagram Counts"
+msgstr ""
+
+#: inc/widgets/social-counters.php:93
+msgid "Display Google+ Counter?"
+msgstr ""
+
+#: inc/widgets/social-counters.php:94
+msgid ""
+"Please make sure you fill out the settings inside Theme Options -> Google+ Oauth for "
+"Google Counts"
+msgstr ""
+
+#: inc/widgets/social-counters.php:98
+msgid "Debug Mode"
+msgstr ""
+
+#: inc/widgets/social-counters.php:99
+msgid "Enable this to see what is returned from social network sites."
+msgstr ""
+
+#: inc/widgets/subscribe.php:8
+msgid "A widget that gathers email addresses."
+msgstr ""
+
+#: inc/widgets/subscribe.php:13
+msgid "Fuel Themes - Subscribe Widget"
+msgstr ""
+
+#: inc/widgets/subscribe.php:34 vc_templates/thb_subscribe.php:11
+msgid "Your E-Mail"
+msgstr ""
+
+#: inc/widgets/subscribe.php:35
+msgid "GO"
+msgstr ""
+
+#: inc/widgets/subscribe.php:71
+msgid "You can find the collected emails <a href=\""
+msgstr ""
+
+#: inc/woocommerce-category-image.php:10 inc/woocommerce-category-image.php:101
+#: inc/woocommerce-category-image.php:203
+msgid "Header"
+msgstr ""
+
+#: inc/woocommerce-category-image.php:14 inc/woocommerce-category-image.php:106
+msgid "Upload/Add image"
+msgstr ""
+
+#: inc/woocommerce-category-image.php:15 inc/woocommerce-category-image.php:107
+msgid "Remove image"
+msgstr ""
+
+#: inc/woocommerce-category-image.php:39 inc/woocommerce-category-image.php:133
+msgid "Choose an image"
+msgstr ""
+
+#: inc/woocommerce-category-image.php:41 inc/woocommerce-category-image.php:135
+msgid "Use image"
+msgstr ""
+
+#: inc/woocommerce-category-image.php:202
+msgid "Image"
+msgstr ""
+
+#: inc/woocommerce.php:27
+msgid "View your shopping cart"
+msgstr ""
+
+#: inc/woocommerce.php:39
+msgid "Out of Stock"
+msgstr ""
+
+#: inc/woocommerce.php:61
+msgid "Sale"
+msgstr ""
+
+#: inc/woocommerce.php:68
+msgid "Just Arrived"
+msgstr ""
+
+#: inc/woocommerce.php:215
+msgid "PREV"
+msgstr ""
+
+#: inc/woocommerce.php:216
+msgid "NEXT"
+msgstr ""
+
+#: inc/wp3menu.php:8
+msgid "Navigation Menu"
+msgstr ""
+
+#: inc/wp3menu.php:9
+msgid "Mobile Menu"
+msgstr ""
+
+#: inc/wp3menu.php:10
+msgid "Secondary Mobile Menu"
+msgstr ""
+
+#: inc/wp3menu.php:233
+msgid "Edit Menu Item"
+msgstr ""
+
+#: inc/wp3menu.php:242
+msgid "URL"
+msgstr ""
+
+#: inc/wp3menu.php:249
+msgid "Navigation Label"
+msgstr ""
+
+#: inc/wp3menu.php:255
+msgid "Title Attribute"
+msgstr ""
+
+#: inc/wp3menu.php:262
+msgid "Open link in a new window/tab"
+msgstr ""
+
+#: inc/wp3menu.php:267
+msgid "CSS Classes (optional)"
+msgstr ""
+
+#: inc/wp3menu.php:273
+msgid "Link Relationship (XFN)"
+msgstr ""
+
+#: inc/wp3menu.php:279
+msgid "Description"
+msgstr ""
+
+#: inc/wp3menu.php:281
+msgid "The description will be displayed in the menu if the current theme supports it."
+msgstr ""
+
+#: inc/wp3menu.php:288
+msgid "Fuel Themes Menu Options"
+msgstr ""
+
+#: inc/wp3menu.php:290
+msgid "Menu Item Icon"
+msgstr ""
+
+#: inc/wp3menu.php:301
+msgid "Mega Menu"
+msgstr ""
+
+#: inc/wp3menu.php:310
+msgid "Enable"
+msgstr ""
+
+#: inc/wp3menu.php:332
+msgid "Remove"
+msgstr ""
+
+#: inc/wp3menu.php:333
+msgid "Cancel"
+msgstr ""
+
+#: searchform.php:4
+msgid "Search"
+msgstr ""
+
+#: vc_templates/thb_instagram.php:32
+msgid "Unable to communicate with Instagram."
+msgstr ""
+
+#: vc_templates/thb_instagram.php:35
+msgid "Instagram did not return a 200."
+msgstr ""
+
+#: vc_templates/thb_instagram.php:42
+msgid "Instagram has returned invalid data."
+msgstr ""
+
+#: vc_templates/thb_postcarousel.php:109
+msgid "Read More &rarr;"
+msgstr ""
+
+#: vc_templates/thb_subscribe.php:12
+msgid "SIGN UP"
+msgstr ""
+
+#: woocommerce/cart/cart-empty.php:16
+msgid "Your cart is currently empty."
+msgstr ""
+
+#: woocommerce/cart/cart-empty.php:19
+msgid "Return To Shop"
+msgstr ""
+
+#: woocommerce/cart/cart-shipping.php:46
+msgid "Shipping costs will be calculated once you have provided your address."
+msgstr ""
+
+#: woocommerce/cart/cart-shipping.php:48
+msgid ""
+"There are no shipping methods available. Please double check your address, or contact us "
+"if you need any help."
+msgstr ""
+
+#: woocommerce/cart/cart-totals.php:19
+msgid "Shopping Bag Totals"
+msgstr ""
+
+#: woocommerce/cart/cart-totals.php:24
+msgid "Cart Subtotal"
+msgstr ""
+
+#: woocommerce/cart/cart-totals.php:46
+msgid "Shipping"
+msgstr ""
+
+#: woocommerce/cart/cart-totals.php:77
+msgid "Order Total"
+msgstr ""
+
+#: woocommerce/cart/cart-totals.php:88
+#, php-format
+msgid " (taxes estimated for %s)"
+msgstr ""
+
+#: woocommerce/cart/cart-totals.php:91
+#, php-format
+msgid ""
+"Note: Shipping and taxes are estimated%s and will be updated during checkout based on "
+"your billing and shipping information."
+msgstr ""
+
+#: woocommerce/cart/cart-totals.php:99 woocommerce/cart/proceed-to-checkout-button.php:21
+msgid "Proceed to Checkout"
+msgstr ""
+
+#: woocommerce/cart/cart.php:26 woocommerce/cart/cart.php:27
+#: woocommerce/checkout/form-pay.php:30
+msgid "Product"
+msgstr ""
+
+#: woocommerce/cart/cart.php:28
+msgid "Price"
+msgstr ""
+
+#: woocommerce/cart/cart.php:29
+msgid "QTY"
+msgstr ""
+
+#: woocommerce/cart/cart.php:30
+msgid "Total"
+msgstr ""
+
+#: woocommerce/cart/cart.php:71
+msgid "Available on backorder"
+msgstr ""
+
+#: woocommerce/cart/cart.php:106
+msgid "Remove this item"
+msgstr ""
+
+#: woocommerce/cart/cart.php:124
+msgid "Enter Coupon Code"
+msgstr ""
+
+#: woocommerce/cart/cart.php:125 woocommerce/checkout/form-coupon.php:35
+msgid "Apply"
+msgstr ""
+
+#: woocommerce/cart/cart.php:131
+msgid "Update Cart"
+msgstr ""
+
+#: woocommerce/cart/cross-sells.php:45
+msgid "Complimentary Products"
+msgstr ""
+
+#: woocommerce/cart/shipping-calculator.php:33
+msgid "Calculate Shipping"
+msgstr ""
+
+#: woocommerce/cart/shipping-calculator.php:41
+msgid "Select a country&hellip;"
+msgstr ""
+
+#: woocommerce/cart/shipping-calculator.php:59 woocommerce/cart/shipping-calculator.php:65
+msgid "State / county"
+msgstr ""
+
+#: woocommerce/cart/shipping-calculator.php:66
+msgid "Select a state&hellip;"
+msgstr ""
+
+#: woocommerce/cart/shipping-calculator.php:94
+msgid "Postcode / Zip"
+msgstr ""
+
+#: woocommerce/cart/shipping-calculator.php:99
+msgid "Update Totals"
+msgstr ""
+
+#: woocommerce/checkout/form-billing.php:19
+msgid "Billing &amp; Shipping"
+msgstr ""
+
+#: woocommerce/checkout/form-billing.php:23 woocommerce/myaccount/my-address.php:27
+#: woocommerce/myaccount/my-address.php:32 woocommerce/order/order-details-customer.php:58
+msgid "Billing Address"
+msgstr ""
+
+#: woocommerce/checkout/form-billing.php:42
+msgid "Create an account?"
+msgstr ""
+
+#: woocommerce/checkout/form-billing.php:53
+msgid ""
+"Create an account by entering the information below. If you are a returning customer "
+"please login at the top of the page."
+msgstr ""
+
+#: woocommerce/checkout/form-checkout.php:18
+msgid "You must be logged in to checkout."
+msgstr ""
+
+#: woocommerce/checkout/form-coupon.php:27
+msgid "Have a coupon?"
+msgstr ""
+
+#: woocommerce/checkout/form-coupon.php:27
+msgid "Click here to enter your code"
+msgstr ""
+
+#: woocommerce/checkout/form-coupon.php:34
+msgid "Coupon code"
+msgstr ""
+
+#: woocommerce/checkout/form-login.php:27
+msgid "Returning customer?"
+msgstr ""
+
+#: woocommerce/checkout/form-login.php:27
+msgid "Click here to login"
+msgstr ""
+
+#: woocommerce/checkout/form-login.php:34
+msgid "If you have shopped with us before, please enter your details in the boxes below."
+msgstr ""
+
+#: woocommerce/checkout/form-pay.php:23
+msgid "<small>Back to</small> My Account"
+msgstr ""
+
+#: woocommerce/checkout/form-pay.php:26
+msgid "Your Order"
+msgstr ""
+
+#: woocommerce/checkout/form-pay.php:31
+msgid "Qty"
+msgstr ""
+
+#: woocommerce/checkout/form-pay.php:32
+msgid "Totals"
+msgstr ""
+
+#: woocommerce/checkout/form-pay.php:65
+msgid "Payment"
+msgstr ""
+
+#: woocommerce/checkout/form-pay.php:73
+msgid ""
+"Sorry, it seems that there are no available payment methods for your location. Please "
+"contact us if you require assistance or wish to make alternate arrangements."
+msgstr ""
+
+#: woocommerce/checkout/form-shipping.php:30 woocommerce/myaccount/my-address.php:28
+#: woocommerce/order/order-details-customer.php:69
+msgid "Shipping Address"
+msgstr ""
+
+#: woocommerce/checkout/form-shipping.php:32
+msgid "Ship to a different address?"
+msgstr ""
+
+#: woocommerce/checkout/form-shipping.php:60
+#: woocommerce/single-product/tabs/additional-information.php:25
+msgid "Additional Information"
+msgstr ""
+
+#: woocommerce/checkout/payment.php:35
+msgid ""
+"Sorry, it seems that there are no available payment methods for your state. Please "
+"contact us if you require assistance or wish to make alternate arrangements."
+msgstr ""
+
+#: woocommerce/checkout/payment.php:35
+msgid "Please fill in your details above to see available payment methods."
+msgstr ""
+
+#: woocommerce/checkout/payment.php:43
+msgid ""
+"Since your browser does not support JavaScript, or it is disabled, please ensure you "
+"click the <em>Update Totals</em> button before placing your order. You may be charged "
+"more than the amount stated above if you fail to do so."
+msgstr ""
+
+#: woocommerce/checkout/terms.php:16
+#, php-format
+msgid ""
+"I&rsquo;ve read and accept the <a href=\"%s\" target=\"_blank\">terms &amp; conditions</a>"
+msgstr ""
+
+#: woocommerce/checkout/thankyou.php:30
+msgid ""
+"Unfortunately your order cannot be processed as the originating bank/merchant has "
+"declined your transaction. Please attempt your purchase again."
+msgstr ""
+
+#: woocommerce/checkout/thankyou.php:33
+msgid "Pay"
+msgstr ""
+
+#: woocommerce/checkout/thankyou.php:35
+msgid "My Account"
+msgstr ""
+
+#: woocommerce/checkout/thankyou.php:41 woocommerce/checkout/thankyou.php:72
+msgid "Thank you. Your order has been received."
+msgstr ""
+
+#: woocommerce/checkout/thankyou.php:45
+msgid "Order Number:"
+msgstr ""
+
+#: woocommerce/checkout/thankyou.php:49
+msgid "Date:"
+msgstr ""
+
+#: woocommerce/checkout/thankyou.php:53
+msgid "Total:"
+msgstr ""
+
+#: woocommerce/checkout/thankyou.php:58
+msgid "Payment Method:"
+msgstr ""
+
+#: woocommerce/global/form-login.php:23 woocommerce/myaccount/form-lost-password.php:34
+msgid "Username or email"
+msgstr ""
+
+#: woocommerce/global/form-login.php:27 woocommerce/myaccount/form-login.php:36
+#: woocommerce/myaccount/form-login.php:72
+msgid "Password"
+msgstr ""
+
+#: woocommerce/global/form-login.php:35 woocommerce/myaccount/form-login.php:49
+msgid "Login"
+msgstr ""
+
+#: woocommerce/global/form-login.php:36 woocommerce/myaccount/form-login.php:40
+msgid "Remember me"
+msgstr ""
+
+#: woocommerce/global/form-login.php:40
+msgid "Lost your password?"
+msgstr ""
+
+#: woocommerce/loop/add-to-cart.php:25
+msgid "Added to Cart"
+msgstr ""
+
+#: woocommerce/loop/no-products-found.php:14
+msgid "No products found which match your selection."
+msgstr ""
+
+#: woocommerce/loop/pagination.php:29
+msgid "&larr;"
+msgstr ""
+
+#: woocommerce/loop/pagination.php:30
+msgid "&rarr;"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:31 woocommerce/myaccount/form-login.php:86
+msgid "I'm an existing customer and would like to login."
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:34
+msgid "Username or email address"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:44
+msgid "Lost Password?"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:56 woocommerce/myaccount/form-login.php:63
+msgid "I'm a new customer and would like to register."
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:57
+msgid "Create a New Account"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:67
+msgid "Username"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:70
+msgid "Email address"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:75
+msgid "Anti-spam"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:81
+msgid "Register"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:87
+msgid "Login to Existing Account"
+msgstr ""
+
+#: woocommerce/myaccount/form-lost-password.php:31
+msgid ""
+"Lost your password? Please enter your username or email address. You will receive a link "
+"to create a new password via email."
+msgstr ""
+
+#: woocommerce/myaccount/my-address.php:40
+msgid "The following addresses will be used on the checkout page by default."
+msgstr ""
+
+#: woocommerce/myaccount/my-address.php:63
+msgid "You have not set up this type of address yet."
+msgstr ""
+
+#: woocommerce/myaccount/my-address.php:69
+msgid "Edit"
+msgstr ""
+
+#: woocommerce/order/order-details-customer.php:23
+msgid "Customer Details"
+msgstr ""
+
+#: woocommerce/order/order-details-customer.php:28
+msgid "Note:"
+msgstr ""
+
+#: woocommerce/order/order-details-customer.php:35
+msgid "Email:"
+msgstr ""
+
+#: woocommerce/order/order-details-customer.php:42
+msgid "Telephone:"
+msgstr ""
+
+#: woocommerce/order/order-details-customer.php:61
+#: woocommerce/order/order-details-customer.php:72
+msgid "N/A"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:67
+msgid "Submit Review"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:74
+msgid "Rating"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:75
+msgid "Rate&hellip;"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:76
+msgid "Perfect"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:77
+msgid "Good"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:78
+msgid "Average"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:79
+msgid "Not that bad"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:80
+msgid "Very Poor"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:86
+msgid "Your Review"
+msgstr ""
+
+#: woocommerce/single-product/add-to-cart/simple.php:51
+#: woocommerce/single-product/add-to-cart/variable.php:31
+msgid "This product is currently out of stock and unavailable."
+msgstr ""
+
+#: woocommerce/single-product/add-to-cart/subscription.php:40
+msgid "Renew"
+msgstr ""
+
+#: woocommerce/single-product/add-to-cart/subscription.php:43
+msgid "You have an active subscription to this product already."
+msgstr ""
+
+#: woocommerce/single-product/rating.php:26
+#, php-format
+msgid "Rated %s out of 5"
+msgstr ""
+
+#: woocommerce/single-product/rating.php:28
+#, php-format
+msgid "out of %s5%s"
+msgstr ""
+
+#: woocommerce/single-product/rating.php:36
+msgid "Write the first review"
+msgstr ""
+
+#: woocommerce/single-product/related.php:51
+msgid "Related Products"
+msgstr ""
+
+#: woocommerce/single-product/tabs/description.php:25
+msgid "Product Description"
+msgstr ""
+
+#: woocommerce/single-product/up-sells.php:47
+msgid "You Might Also Like"
+msgstr ""

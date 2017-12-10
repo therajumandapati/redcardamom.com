@@ -1,0 +1,99 @@
+.your-order-header {
+	width: 100%;
+	border: 5px solid #f4f4f4;
+	.order-container {
+		background: #fff;
+		
+		padding: 30px 15px;
+		text-align: center;
+		color: #747474;
+		text-transform: uppercase;
+		font-size: 20px;
+		border-bottom: 5px solid #f4f4f4;
+		
+		@include min-break($break-small) {
+			font-size: 42px;
+			padding: 50px 30px;
+		}
+		span {
+			color: $color3;
+		}
+	}
+	.order-details {
+		text-align: center;
+		padding: 25px 0;
+		font-size: 18px;
+		color: $color1;
+		
+		label {
+			font-weight: 700;
+			margin-bottom: 10px;
+		}
+		& +.order-details {
+			border-left: 1px solid #f4f4f4;
+			
+			@include max-break($break-small) {
+				border-left: 0;
+				border-top: 1px solid #f4f4f4;
+			}
+		}
+	}
+}
+div.order-status {
+	text-align: center;
+	background: $color3;
+	padding: 15px;
+	text-transform: uppercase;
+	width: 100%;
+	margin-top: 10px;
+	margin-bottom: 60px;
+	
+	@include min-break($break-small) {
+		padding: 24px 30px;
+	}
+	h6 {
+		color: #fff;
+		margin: 0;
+		font-size: 14px;
+		text-transform: uppercase;
+		line-height: 1;
+	}
+	&.failed {
+		background: #e24f3d;
+	}
+}
+.your-order-container {
+	border: 3px solid #f4f4f4;
+	padding: 15px;
+	@include min-break($break-small) {
+		padding: 40px;	
+	}
+	h2 {
+		font-size: 24px;
+		line-height: 36px;
+		margin-bottom: 20px;
+		font-weight: 700;	
+	}
+	h3 {
+		font-size: 20px;
+		line-height: 26px;
+		margin-bottom: 20px;
+		font-weight: 600;
+	}
+	ul {
+		list-style: none;
+		font-size: 16px;	
+		
+		li {
+			margin: 0;	
+		}
+	}
+}
+.order-information {
+	label {
+		font-weight: 700;	
+	}
+	p {
+		font-size: 16px;	
+	}
+}

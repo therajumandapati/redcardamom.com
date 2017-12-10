@@ -1,0 +1,254 @@
+#footer {
+	border-top: 1px solid $color2;
+	
+	.row {
+		display: flex;
+		align-items: stretch;
+		flex-wrap: wrap;
+		padding: 0 15px;
+		&:before,
+		&:after {
+			display: none !important;	
+		}
+		&.no-padding {
+		  padding: 0;
+		}
+		&.center-align {
+			.columns {
+				align-items: center;
+				justify-content: center;
+			}
+		}
+		.columns {
+			padding: 0;
+			display: flex;
+			flex-direction: column;
+			
+			& + .columns {
+				border-top: 1px solid $color2;
+				
+				@include min-break($break-small) {
+					border-top: 0;
+					border-left: 1px solid $color2;
+				}
+			}
+		}
+	}
+	&.no-borders {
+		.row {
+			.columns + .columns {
+				border: 0;
+				
+				@include min-break($break-small) {
+					border: 0;
+				}
+			}
+		}
+	}
+	&.left-align-text {
+		.widget {
+			text-align: left;
+		}
+	}
+	p {
+		font-size: 13px;
+	}
+	.widget {
+		border: 0;
+		padding: 30px 15px;
+		text-align: center;
+		
+		@include min-break($break-small) {
+			padding: 40px;
+		}
+		&>strong {
+			font-size: 11px;
+			top: 0;
+			margin-bottom: 20px;
+			span {
+				background: transparent;
+				color: $color1;
+			}	
+		}
+		&.style3 {
+			&>strong {
+				text-align: left;
+				border: 0;
+				height: auto;
+				span {
+					padding: 0;	
+				}
+			}
+		}
+		ul.menu li {
+			a {
+				font-size: 10px;
+				color: #878787;
+				text-transform: uppercase;
+			}
+			.submenu {
+				border: 0;
+				padding: 0;
+				margin: 0;
+			}
+		}
+		&.widget_latestimages,
+		&.widget_sharedimages {
+			text-align: left;
+		}
+	}
+	&.style2,
+	&.style3 {
+		padding: 60px 0 100px;
+		.logolink {
+			display: inline-block;
+			margin-bottom: 35px;
+			
+			img {
+				display: inline-block;
+				max-height: 40px;	
+			}
+		}
+		.menu {
+			list-style: none;
+			margin: 0 0 15px;
+			padding: 0;
+			@extend .mont;
+			
+			li {
+				display: block;
+				font-size: 12px;
+				font-weight: 600;
+				text-transform: uppercase;
+				margin-bottom: 10px;
+				@include min-break($break-small) {
+					display: inline-block;
+					margin: 0 9px;
+				}	
+			}
+		}
+		p {
+			font-size: 10px;
+			color: rgba($color1, 0.6);
+			text-transform: uppercase;
+		}
+	}
+	&.style3 {
+		padding: 30px 0 70px;
+		border-top: 1px solid rgba(#000,0.1);
+		text-align: center;
+		.row .columns {
+			flex-direction: row;
+			align-items: center;
+			justify-content: center;
+			
+			@include min-break($break-medium) {
+				justify-content: flex-start;	
+			}
+			&.text-center {
+				justify-content: center;
+			}
+			&.social-section {
+				text-align: right;
+				
+				@include min-break($break-medium) {
+					justify-content: flex-end;	
+				}
+				a {
+					padding: 0 5px;
+					text-align: center;
+					display: inline-block;	
+					
+					&:last-of-type {
+						padding-right: 0;	
+					}
+					@include min-break($break-medium) {
+						text-align: right;
+					}
+				}
+			}
+			.menu a {
+				color: $color1;
+			}
+		}
+		.logolink img {
+			max-height: 20px;
+		}
+		.logolink,
+		.menu { 
+			line-height: 1;
+			@include min-break($break-medium) {
+				margin: 0;	
+			}
+		}
+		
+	}
+}
+#subfooter {
+	border-top: 1px solid $color2;
+	padding: 30px 0;
+	color: #6a6a6a;
+	font-weight: 400;
+	text-align: center;
+	p {
+		font-size: 10px;	
+	}
+	a {
+		display: inline-block;
+		margin: 0 10px;
+		font-size: 10px;
+		
+		&.icon-1x {
+			font-size: 16px;
+		}
+	}
+	.menu {
+		list-style: none;
+		margin: 0;
+		padding: 0;
+		
+		li {
+			display: inline-block;	
+			text-transform: uppercase;
+			
+			a {
+				color: $color1;
+				font-size: 12px;
+			}
+		}
+	}
+}
+.social_bar {
+	padding: 30px 0 20px;
+	background: #feeeee;
+	color: $color1;
+	@extend .mont;
+	@include min-break($break-small) {
+		padding: 60px 0 50px;	
+	}
+	
+	ul {
+		list-style: none;
+		margin-bottom: 0;
+		
+		li {
+			text-transform: uppercase;
+			font-size: 12px;
+			font-weight: 600;	
+			text-align: center;
+			margin-bottom: 10px;
+			.fa {
+				font-size: 20px;
+				margin-right: 15px;
+			}
+			a {
+				color: $color1;
+				display: inline-flex;
+				align-items: center;	
+			}
+		}
+	}
+	& + #footer {
+		border-top: 0;
+	}
+}
