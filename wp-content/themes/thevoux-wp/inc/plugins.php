@@ -20,13 +20,6 @@ function thb_register_required_plugins() {
 			'force_deactivation'	=> false
 		),
 		array(
-			'name'     				=> 'Sidekick', // The plugin name
-			'slug'     				=> 'sidekick', // The plugin source
-			'required' 				=> true, // If false, the plugin is only 'recommended' instead of required
-			'force_activation' 		=> false, // If true, plugin is activated upon theme activation and cannot be deactivated until theme switch
-			'force_deactivation' 	=> false // If true, plugin is deactivated upon theme switch, useful for theme-specific plugins
-		),
-		array(
 			'name'     				=> 'Contact Form 7', // The plugin name
 			'slug'     				=> 'contact-form-7', // The plugin source
 			'required' 				=> false, // If false, the plugin is only 'recommended' instead of required

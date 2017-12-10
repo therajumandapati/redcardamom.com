@@ -79,8 +79,3 @@ if ( is_admin() ) {
 	require get_template_directory() . '/inc/import.php';
 	require get_template_directory() . '/inc/one-click-demo-import/one-click-demo-import.php';
 }
-
-// SideKick Integration
-define('SK_PRODUCT_ID',459);
-define('SK_ENVATO_PARTNER', '5LXnCIbjT0TD4jcyZuhMSAgVwil8hU5TTxIW5cNNwbA=');
-define('SK_ENVATO_SECRET', 'RqjBt/YyaTOjDq+lKLWhL10sFCMCJciT9SPUKLBBmso=');
