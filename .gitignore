@@ -132,6 +132,7 @@ config.codekit
 config.codekit3
 prepros-6.config
 package-lock.json
+db.php
 
 .idea/
 dist
