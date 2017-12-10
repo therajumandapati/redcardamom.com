@@ -7,7 +7,7 @@ add_filter( 'wpcf7_load_css', '__return_false' );
 function thb_main_styles() {	
 	global $post;
 	// Enqueue 
-	wp_enqueue_style("thb-fa", 'https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css', null, null);
+	wp_enqueue_style("thb-fa", THB_THEME_ROOT .  "/assets/css/font-awesome.min.css", null, null);
 	wp_enqueue_style("thb-app", THB_THEME_ROOT .  "/assets/css/app.css", null, null);
 	wp_enqueue_style('thb-style', get_stylesheet_uri(), null, null);	
 	
@@ -94,4 +94,39 @@ if(class_exists('woocommerce')) {
 		wp_dequeue_script( 'prettyPhoto-init' );
 	}
 	add_action('wp_enqueue_scripts', 'thb_woocommerce_scripts');
+}
+
+
+// read the enqueued files
+// get the one with name optimize_mikado_google_fonts
+// extract the string for google fonts
+// return it to mabbly_get_google_fonts_list function
+
+$redcardamom_config = array(
+	google_fonts => ''
+);
+
+function redcardamom_read_enqueue_styles() {
+	global $wp_styles;
+	global $redcardamom_config;
+	foreach( $wp_styles->registered as $queue_item ) {
+		if($queue_item->handle == 'thb-google-fonts') {
+			$fonts_url = $queue_item->src;
+			$parts = parse_url($fonts_url);
+			parse_str($parts['query'], $query);
+			$families = explode('|', $query['family']);
+			$redcardamom_config['google_fonts'] = array(
+				families => $families,
+				subset => $query['subset']
+			);
+			wp_dequeue_style('thb-google-fonts');
+		}
+	};
+}
+
+add_action( 'wp_print_styles', 'redcardamom_read_enqueue_styles' );
+
+function redcardamom_get_google_fonts_list() {
+	global $redcardamom_config;
+	return $redcardamom_config['google_fonts'];
 }

@@ -34,5 +34,29 @@
 	 */
 	 wp_footer(); 
 ?>
+<script>
+
+  <?php 
+    $google_fonts_config = redcardamom_get_google_fonts_list(); 
+    $fonts_text = '';
+    foreach($google_fonts_config['families'] as $family){ 
+      $fonts_text .= $family.'|';
+    }
+    $fonts_text .= '&subset=latin,latin-ext&ver=1.0.0';
+  ?>
+
+   WebFontConfig = {
+    google: {
+      families: ['<?php echo urlencode($fonts_text); ?>'],
+    }
+   };
+
+   (function(d) {
+      var wf = d.createElement('script'), s = d.scripts[0];
+      wf.src = 'https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js';
+      wf.async = true;
+      s.parentNode.insertBefore(wf, s);
+   })(document);
+</script>
 </body>
 </html>
