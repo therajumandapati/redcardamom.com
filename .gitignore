@@ -142,3 +142,4 @@ vendor/
 service-worker.js
 
 .htaccess
+/wp-content/w3tc-config
