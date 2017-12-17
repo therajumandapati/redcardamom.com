@@ -18,9 +18,7 @@ wp-content/themes/twentyseventeen/
 wp-content/themes/bootstrap3/
 wp-content/updraft/
 wp-content/old-themes/
-!wp-content/plugins/Email-Signature-Generator/
-!wp-content/plugins/slick-sitemap-forked/
-!wp-content/plugins/precision-vip/
+!wp-content/plugins/cardamomrecipe/
 wp-content/blogs.dir/
 wp-content/upgrade/*
 wp-content/backup-db/*
