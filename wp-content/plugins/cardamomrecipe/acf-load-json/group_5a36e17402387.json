@@ -1,0 +1,164 @@
+{
+  "key": "group_5a36e17402387",
+  "title": "Cardamom Recipe",
+  "fields": [
+      {
+          "key": "field_5a36e5ff11442",
+          "label": "Ingredients",
+          "name": "cardamom_ingredients",
+          "type": "textarea",
+          "instructions": "",
+          "required": 1,
+          "conditional_logic": 0,
+          "wrapper": {
+              "width": "",
+              "class": "",
+              "id": ""
+          },
+          "default_value": "",
+          "placeholder": "",
+          "maxlength": "",
+          "rows": "",
+          "new_lines": ""
+      },
+      {
+          "key": "field_5a36e64911443",
+          "label": "Instructions",
+          "name": "cardamom_instructions",
+          "type": "textarea",
+          "instructions": "",
+          "required": 1,
+          "conditional_logic": 0,
+          "wrapper": {
+              "width": "",
+              "class": "",
+              "id": ""
+          },
+          "default_value": "",
+          "placeholder": "",
+          "maxlength": "",
+          "rows": "",
+          "new_lines": ""
+      },
+      {
+          "key": "field_5a36e66511444",
+          "label": "Prep Time",
+          "name": "cardamom_preptime",
+          "type": "number",
+          "instructions": "Enter duration in minutes",
+          "required": 1,
+          "conditional_logic": 0,
+          "wrapper": {
+              "width": "",
+              "class": "",
+              "id": ""
+          },
+          "default_value": "",
+          "placeholder": "",
+          "prepend": "",
+          "append": "",
+          "min": "",
+          "max": "",
+          "step": ""
+      },
+      {
+          "key": "field_5a36e68711445",
+          "label": "Cook Time",
+          "name": "cardamom_cooktime",
+          "type": "number",
+          "instructions": "Enter duration in minutes",
+          "required": 1,
+          "conditional_logic": 0,
+          "wrapper": {
+              "width": "",
+              "class": "",
+              "id": ""
+          },
+          "default_value": "",
+          "placeholder": "",
+          "prepend": "",
+          "append": "",
+          "min": "",
+          "max": "",
+          "step": ""
+      },
+      {
+          "key": "field_5a36e69e11446",
+          "label": "Recipe Yield",
+          "name": "cardamom_yield",
+          "type": "text",
+          "instructions": "",
+          "required": 1,
+          "conditional_logic": 0,
+          "wrapper": {
+              "width": "",
+              "class": "",
+              "id": ""
+          },
+          "default_value": "",
+          "placeholder": "",
+          "prepend": "",
+          "append": "",
+          "maxlength": ""
+      },
+      {
+          "key": "field_5a36e6b411447",
+          "label": "Avg Rating",
+          "name": "cardamom_rating",
+          "type": "range",
+          "instructions": "",
+          "required": 0,
+          "conditional_logic": 0,
+          "wrapper": {
+              "width": "",
+              "class": "",
+              "id": ""
+          },
+          "default_value": 0,
+          "min": 0,
+          "max": 5,
+          "step": "0.1",
+          "prepend": "",
+          "append": ""
+      },
+      {
+          "key": "field_5a36e6e711449",
+          "label": "Number of Reviews",
+          "name": "cardamom_reviewcount",
+          "type": "number",
+          "instructions": "",
+          "required": 0,
+          "conditional_logic": 0,
+          "wrapper": {
+              "width": "",
+              "class": "",
+              "id": ""
+          },
+          "default_value": 0,
+          "placeholder": "",
+          "prepend": "",
+          "append": "",
+          "min": "",
+          "max": "",
+          "step": ""
+      }
+  ],
+  "location": [
+      [
+          {
+              "param": "post_type",
+              "operator": "==",
+              "value": "post"
+          }
+      ]
+  ],
+  "menu_order": 0,
+  "position": "normal",
+  "style": "default",
+  "label_placement": "top",
+  "instruction_placement": "label",
+  "hide_on_screen": "",
+  "active": 1,
+  "description": "",
+  "modified": 1513549887
+}
