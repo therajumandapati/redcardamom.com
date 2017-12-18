@@ -12,13 +12,13 @@
  * @subpackage Cardamomrecipe/public/partials
  */
 
-$ingredients = array();
+$ingredients = "";
 
 if(function_exists('get_field') && !empty(get_field('cardamom_ingredients'))) {
     $ingredients = '"' . implode("\",\"", explode("\n", get_field('cardamom_ingredients'))) . '"';
 }
 
-$instructions = array();
+$instructions = "";
 
 if(function_exists('get_field') && !empty(get_field('cardamom_instructions'))) {
     $instructions = '"' . implode("\",\"", explode("\n", get_field('cardamom_instructions'))) . '"';
@@ -88,7 +88,7 @@ if(function_exists('get_field') && !empty(get_field('cardamom_rating'))) {
     "prepTime": "<?php echo $prep_time ?>",
     "cookTime": "<?php echo $cook_time ?>",
     "totalTime": "<?php echo $total_time ?>",
-    "recipeYield": "<?php echo $cardamom_yield ?>"<?php if($review_count !== 0) { ?>,
+    "recipeYield": "<?php echo $recipe_yield ?>"<?php if($review_count !== 0) { ?>,
     "aggregateRating": {
         "@type": "AggregateRating",
         "reviewCount": <?php echo $review_count; ?>,

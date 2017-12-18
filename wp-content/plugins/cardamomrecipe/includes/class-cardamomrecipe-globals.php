@@ -47,8 +47,6 @@ class Cardamomrecipe_Globals {
 
     $template = MY_PLUGIN_PATH . 'public/partials/' . $name . '.php';
 
-    print_r($template);
-
 		return $template;
 
    }

@@ -73,7 +73,7 @@ class Cardamomrecipe_Public {
 		 * class.
 		 */
 
-		wp_enqueue_style( $this->plugin_name, plugin_dir_url( __FILE__ ) . 'css/cardamomrecipe-public.css', array(), $this->version, 'all' );
+		wp_enqueue_style( $this->plugin_name, plugin_dir_url( __FILE__ ) . 'css/style.min.css', array(), $this->version, 'all' );
 
 	}
 
@@ -102,10 +102,22 @@ class Cardamomrecipe_Public {
 
 	public function load_json_ld() {
 		if ( ! is_admin() && get_post_type() == 'post') {
-			
+			ob_start();
 			include cardamomrecipe_get_template($this->plugin_name . '-show-json-ld');
-		
+			$output = ob_get_contents();
+			ob_end_clean();
+			echo $output;
 		}
 	}
 
+	public function load_recipe_markup($content) {
+		if ( ! is_admin() && get_post_type() == 'post') {
+			ob_start();
+			include cardamomrecipe_get_template($this->plugin_name . '-recipe-markup');
+			$output = ob_get_contents();
+			ob_end_clean();
+			return $content . $output;
+		}
+		return $content;
+	}
 }
